@@ -3,7 +3,7 @@ use std::{thread, cmp::Ordering, time};
 use rand::Rng;
 
 fn main() {
-    println!("Guess the number v1.0.4!");
+    println!("Guess the number v1.0.5!");
 
     let secret_number= rand::thread_rng().gen_range(1, 101);
     let mut attempt =0;
